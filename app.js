@@ -38,7 +38,7 @@ app.post("/", function(req, res) {
 
     const options = {
         method: "POST",
-        auth: "dixit:e1256fde6d224780738d2f4ed8dc3037-us6"
+        auth: "dixit:...."
     }
 
     const request = https.request(url, options, function(response){
